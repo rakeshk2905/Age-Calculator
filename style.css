@@ -1,17 +1,18 @@
-* {
+#mainDiv {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     color: rgb(255, 255, 255);
     font-family: 'Itim', cursive;
     background-color: #0E2F2F;
-
+    margin: 100px;
+    text-align: center;
+    border-radius: 25px;  
 }
 
 .Heading {
     color: rgb(247, 173, 82);
     text-shadow: 2px 2px 1px rgb(91, 92, 95);
-    margin-left: 25px;
     font-size: 40px;
 }
 
@@ -22,21 +23,14 @@
 
 }
 
-body {
-    margin-top: 200px;
-    margin-left: 500px;
-    font-size: 14px;
-    
-}
-
 .buttons {
     background-color: rgb(247, 173, 82);
-    margin-left: 30px;
-    padding: 1px 3px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .buttons:hover {
@@ -47,17 +41,19 @@ body {
     margin-left: 20px;
     display: inline-block;
     font-size: 15px;
-
+    color: white;
 }
 
 footer {
-    margin-left: 65px;
+    
+    text-align: center;
 }
 
 form{
-    margin-left: 55px;
+    text-align: center;
 }
 
 #age{
-    margin-left: 55px;
+    margin-right: 60px;
 }
+
